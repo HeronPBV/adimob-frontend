@@ -1,0 +1,24 @@
+@import url(./reset.css);
+
+:root {
+  font-family: 'Poppins', sans-serif;
+}
+
+/* light */
+:root {
+  --color-outline-primary: #2ebacc;
+  --color-background-primary: #072f35;
+  --bg: #fff;
+  --fg: #000;
+}
+/* dark */
+.dark {
+  --color-outline-primary: #ccc12e;
+  --color-background-primary: #413e09;
+  --bg: #111;
+  --fg: #eee;
+}
+body {
+  background: var(--bg);
+  color: var(--fg);
+}
